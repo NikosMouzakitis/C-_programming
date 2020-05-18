@@ -6,7 +6,7 @@ public class HelloExceptions
 	static public void Main()
 	{
 		Console.WriteLine("Start");
-		string fileName = "wrong.txt"; //if file doesn't exist runtime error.
+		string fileName = "wrong.txt"; //if file doesn't exist it will throw an application exception.
 		ReadFile(fileName);
 	}	
 
